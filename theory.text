@@ -1,0 +1,12 @@
+
+
+=============CRUD=============
+C => INSERT INTO students (name, roll, class, phone, email, address) VALUES ('x', 4, 'seven', '904689', 'sdg@gmail.com', 'Dhaka')
+R => SELECT * FROM students/ (SELCT * FROM students WHERE id = 7)
+U => UPDATE students SET name = 'sdhfus', class = 'eight', roll = 5, phone = '984376438', email = 'abc@gmail.com', address = 'Khulna' WHERE id = 3;
+D => DELETE FROM students WHERE id = 6;
+
+new mysqli ('host', 'user', 'password', 'database_name')
+
+$result = 10;
+echo 'The result is='.$result.'That's not a good result';0
