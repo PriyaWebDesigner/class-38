@@ -9,5 +9,5 @@ $connection = new mysqli ('localhost','root','','student_management_system');
 // else{
 //     // echo 'Failed to connect with Database';
 //     die(mysqli_error($connection));
-// }40.52
+// }
 ?>
